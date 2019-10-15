@@ -54,7 +54,7 @@ public class MorseCodeDecoder {
                 messageToDecode = messageToDecode.replace(messageToDecode.charAt(i), ' ');
             }
         }
-        
+
         messageToDecode = messageToDecode.trim();
         messageToDecode += "  ";
 
